@@ -1,1 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+/**Sets the h1 tag to an appropriate title font**/
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+}
+.newspaper-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date {
+ color:lightslategray;
+}
+
+/**sets all images to grayscale**/
+img {
+    filter: grayscale(100%);
+}
+  
+h5 {
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+/**uses a flex-box to align the articles dymanically**/
+.more-articles {
+    display: flex;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+  /**makes the nav list match using a flex box**/
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+li {
+    text-transform: uppercase;
+  }
+nav {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+a {
+    text-decoration: none;
+    color: gray;
+  }
