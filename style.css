@@ -30,20 +30,21 @@ h5 {
     align-items: center;
 }
 
-  /**makes the nav list match using a flex box**/
-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-  }
-li {
-    text-transform: uppercase;
-  }
+  /**makes the nav list match the requirements using parent dependencies**/
 nav {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
   }
-a {
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+nav ul li {
+    text-transform: uppercase;
+  }
+
+nav ul li a {
     text-decoration: none;
     color: gray;
   }
